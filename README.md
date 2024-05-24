@@ -64,7 +64,7 @@ git lfs pull
 
 5. Format of generated results
     - For each `run_linklogic.py` run results are saved in the `io_params["save_path"]` with the following file format:
-        - {dataset}_{benchmark}_{benchmark_datatype}_{method}_{feature_considerations}_child_{consider_child}.pickle
+        - {dataset}\_{benchmark}\_{benchmark_datatype}\_{method}\_{feature_considerations}\_child\_{consider\_child}.pickle
         - Here, for each <feature_consideration> a new .pickle file is saved. 
     - Contents of the .pickle files saved:
         - Each file constains the metadata associated with the list of all the queries
