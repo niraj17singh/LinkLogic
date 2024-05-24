@@ -11,7 +11,7 @@ Knowledge Graph Predictions.
 
 #  Compute Knowledge Graph Embeddings
 
-To train the CompleX Decoder used in the paper, we used the [DGL-KE](https://github.com/awslabs/dgl-ke) library. For easy reproducibility of the experiments mentioned in the paper, we are sharing the trained embeddings using ComplEx decode for the `fb13_resplit` and `fb14` datasets. To download the same run the following script from the root of the project:
+To train the ComplEx Decoder used in the paper, we used the [DGL-KE](https://github.com/awslabs/dgl-ke) library. For easy reproducibility of the experiments mentioned in the paper, we are sharing the trained embeddings using ComplEx decode for the `fb13_resplit` and `fb14` datasets. To download the same run the following script from the root of the project:
 
 ```bash
 sh get_embeddings.sh
@@ -31,24 +31,24 @@ sh get_embeddings.sh
         - `linklogic_params`: Defines the params used by linklogic to generate explanations
     - Description of the `io_params`
     - Description of the `linklogic_params`
-        - dataset: 
-        - method: 
-        - prob: Boolean for sigmoid transformation on the knowledge graph embedding scores
-        - n_instances: Number of neighbors to sample to calculate variance for perturbing query embeddings
-        - topk: Number of paths to consider per relation type
-        - neighbor_sample_size: Number of neighbors to sample to calculate variance for perturbing query embeddings
-        - var_scale_head: To scale the head embedding varinace for perturbation
-        - var_scale_tail: To scale the tail embedding variance for perturbation
-        - seed: To reproduce the results
-        - hop2_path_cal: 
-        - logsum: Boolean for log transformation of featuers and the labels
-        - alpha: Regularization constant to for the surrogate model
-        - consider_child:  
-        - benchmark
-        - benchmark_datatype:
-        - r1_name_link:
-        - r2_name_list
-        - feature_considerations: 
+        - `dataset`: Name of the dataset. Currently supports `fb13_resplit`, `fb14`
+        - `method`: Name of the KGE embedding strategy. Currently supported `ComplEx` and `TransE`.
+        - `prob`: Boolean for sigmoid transformation on the knowledge graph embedding scores
+        - `n_instances`: Number of neighbors to sample to calculate variance for perturbing query embeddings
+        - `topk`: Number of paths to consider per relation type
+        - `neighbor_sample_size`: Number of neighbors to sample to calculate variance for perturbing query embeddings
+        - `var_scale_head`: To scale the head embedding varinace for perturbation. Defaul value = 1
+        - `var_scale_tail`: To scale the tail embedding variance for perturbation. Defaul value = 1
+        - `seed`: To reproduce the results
+        - `hop2_path_cal`: Strategy to compute the 2-hop path score. Valid options - `product` or `sqrt`
+        - `logsum`: Boolean for log transformation of featuers and the labels
+        - `alpha`: Regularization constant to for the surrogate model
+        - `consider_child`: Boolean to remove direct inverse evidence for parents benchmark
+        - `benchmark`: Benchmark category - Currently supports `parents` or `location`
+        - `benchmark_datatype`: Benchmark datatype - Currently supports `analysis` or `tuning`
+        - `r1_name_link`: List of relations to consider for 1st hop in creating 2-hop paths
+        - `r2_name_list`: List of relations to consider for 2nd hop in creating 2-hop paths
+        - `feature_considerations`: Wheather to cosider only 1-hop, 2-hop or all features to train the surrogate model
 
     
 3. Run Linklogic
