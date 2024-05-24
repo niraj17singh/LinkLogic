@@ -1,0 +1,1173 @@
+[
+    {
+        "query_triple": [
+            "bob_jones_jr",
+            "location",
+            "greenville"
+        ],
+        "category": "location",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "bob_jones_jr",
+                    "place_of_death",
+                    "greenville"
+                ],
+                "category": "person--placeofdeath",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "bob_jones_jr",
+                    "parents",
+                    "bob_jones_sr",
+                    "location",
+                    "greenville"
+                ],
+                "category": "person--parent--location",
+                "confidence": 1,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "bob_jones_jr",
+                    "parents",
+                    "bob_jones_sr"
+                ],
+                "category": "person--parent",
+                "confidence": 1,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "hamnet_shakespeare",
+            "location",
+            "stratford-upon-avon"
+        ],
+        "category": "location",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "hamnet_shakespeare",
+                    "place_of_birth",
+                    "stratford-upon-avon"
+                ],
+                "category": "person--placeofbirth",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "hamnet_shakespeare",
+                    "parents",
+                    "anne_hathaway_1556",
+                    "location",
+                    "stratford-upon-avon"
+                ],
+                "category": "person--parent--location",
+                "confidence": 1,
+                "splits": [
+                    "test",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "hamnet_shakespeare",
+                    "parents",
+                    "william_shakespeare",
+                    "location",
+                    "stratford-upon-avon"
+                ],
+                "category": "person--parent--location",
+                "confidence": 1,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "hamnet_shakespeare",
+                    "parents",
+                    "anne_hathaway_1556"
+                ],
+                "category": "person--parent",
+                "confidence": 1,
+                "splits": "test"
+            },
+            {
+                "path": [
+                    "hamnet_shakespeare",
+                    "parents",
+                    "william_shakespeare"
+                ],
+                "category": "person--parent",
+                "confidence": 1,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "emperor_ninko",
+            "parents",
+            "emperor_kokaku"
+        ],
+        "category": "parents",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "emperor_kokaku",
+                    "children",
+                    "emperor_ninko"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "train"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "mary_harrison_mckee",
+            "parents",
+            "anna_harrison"
+        ],
+        "category": "parents",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "anna_harrison",
+                    "children",
+                    "mary_harrison_mckee"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "train"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "princess_marie_alexandra_of_baden",
+            "parents",
+            "prince_maximilian_of_baden"
+        ],
+        "category": "parents",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "prince_maximilian_of_baden",
+                    "children",
+                    "princess_marie_alexandra_of_baden"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "prince_maximilian_of_baden",
+                    "spouse",
+                    "princess_marie_louise_of_hanover_and_cumberland",
+                    "children",
+                    "princess_marie_alexandra_of_baden"
+                ],
+                "category": "child--coparent--parent",
+                "confidence": 2,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "prince_maximilian_of_baden",
+                    "spouse",
+                    "princess_marie_louise_of_hanover_and_cumberland"
+                ],
+                "category": "parent--coparent",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "princess_marie_alexandra_of_baden",
+                    "parents",
+                    "princess_marie_louise_of_hanover_and_cumberland",
+                    "spouse",
+                    "prince_maximilian_of_baden"
+                ],
+                "category": "child--coparent--parent",
+                "confidence": 2,
+                "splits": [
+                    "test",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "princess_marie_alexandra_of_baden",
+                    "parents",
+                    "princess_marie_louise_of_hanover_and_cumberland"
+                ],
+                "category": "child--coparent",
+                "confidence": 2,
+                "splits": "test"
+            },
+            {
+                "path": [
+                    "princess_marie_alexandra_of_baden",
+                    "sibling",
+                    "prince_berthold_margrave_of_baden",
+                    "parents",
+                    "prince_maximilian_of_baden"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "princess_marie_alexandra_of_baden",
+                    "sibling",
+                    "prince_berthold_margrave_of_baden"
+                ],
+                "category": "child--sibling",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "prince_maximilian_of_baden",
+                    "children",
+                    "prince_berthold_margrave_of_baden",
+                    "sibling",
+                    "princess_marie_alexandra_of_baden"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "prince_maximilian_of_baden",
+                    "children",
+                    "prince_berthold_margrave_of_baden"
+                ],
+                "category": "parent--sibling",
+                "confidence": 2,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "vittoria_della_rovere",
+            "parents",
+            "francesco_maria_ii_della_rovere"
+        ],
+        "category": "parents",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "francesco_maria_ii_della_rovere",
+                    "children",
+                    "vittoria_della_rovere"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "train"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "mitch_hedberg",
+            "location",
+            "saint_paul"
+        ],
+        "category": "location",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "mitch_hedberg",
+                    "place_of_birth",
+                    "saint_paul"
+                ],
+                "category": "person--placeofbirth",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "henry_v_of_england",
+            "parents",
+            "mary_de_bohun"
+        ],
+        "category": "parents",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "henry_v_of_england"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "spouse",
+                    "henry_iv_of_england",
+                    "children",
+                    "henry_v_of_england"
+                ],
+                "category": "child--coparent--parent",
+                "confidence": 2,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "spouse",
+                    "henry_iv_of_england"
+                ],
+                "category": "parent--coparent",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "parents",
+                    "henry_iv_of_england",
+                    "spouse",
+                    "mary_de_bohun"
+                ],
+                "category": "child--coparent--parent",
+                "confidence": 2,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "parents",
+                    "henry_iv_of_england"
+                ],
+                "category": "child--coparent",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "sibling",
+                    "philippa_of_england",
+                    "parents",
+                    "mary_de_bohun"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "sibling",
+                    "john_of_lancaster_1st_duke_of_bedford",
+                    "parents",
+                    "mary_de_bohun"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "sibling",
+                    "humphrey_duke_of_gloucester",
+                    "parents",
+                    "mary_de_bohun"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "sibling",
+                    "blanche_of_england",
+                    "parents",
+                    "mary_de_bohun"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "sibling",
+                    "philippa_of_england"
+                ],
+                "category": "child--sibling",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "sibling",
+                    "john_of_lancaster_1st_duke_of_bedford"
+                ],
+                "category": "child--sibling",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "sibling",
+                    "humphrey_duke_of_gloucester"
+                ],
+                "category": "child--sibling",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "henry_v_of_england",
+                    "sibling",
+                    "blanche_of_england"
+                ],
+                "category": "child--sibling",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "philippa_of_england",
+                    "sibling",
+                    "henry_v_of_england"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "blanche_of_england",
+                    "sibling",
+                    "henry_v_of_england"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "valid",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "john_of_lancaster_1st_duke_of_bedford",
+                    "sibling",
+                    "henry_v_of_england"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "humphrey_duke_of_gloucester",
+                    "sibling",
+                    "henry_v_of_england"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "philippa_of_england"
+                ],
+                "category": "parent--sibling",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "blanche_of_england"
+                ],
+                "category": "parent--sibling",
+                "confidence": 2,
+                "splits": "valid"
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "john_of_lancaster_1st_duke_of_bedford"
+                ],
+                "category": "parent--sibling",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "mary_de_bohun",
+                    "children",
+                    "humphrey_duke_of_gloucester"
+                ],
+                "category": "parent--sibling",
+                "confidence": 2,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "frederick_iii_german_emperor",
+            "location",
+            "potsdam"
+        ],
+        "category": "location",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "frederick_iii_german_emperor",
+                    "place_of_birth",
+                    "potsdam"
+                ],
+                "category": "person--placeofbirth",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "frederick_iii_german_emperor",
+                    "place_of_death",
+                    "potsdam"
+                ],
+                "category": "person--placeofdeath",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "frederick_iii_german_emperor",
+                    "children",
+                    "sophia_of_prussia",
+                    "location",
+                    "potsdam"
+                ],
+                "category": "person--child--location",
+                "confidence": 1,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "frederick_iii_german_emperor",
+                    "children",
+                    "sophia_of_prussia"
+                ],
+                "category": "person--child",
+                "confidence": 1,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "gustave_auguste_ferrie",
+            "location",
+            "france"
+        ],
+        "category": "location",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "gustave_auguste_ferrie",
+                    "nationality",
+                    "france"
+                ],
+                "category": "person--nationality",
+                "confidence": 2,
+                "splits": [
+                    "test"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "charles_champion_gilbert",
+            "location",
+            "zanesville"
+        ],
+        "category": "location",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "charles_champion_gilbert",
+                    "place_of_birth",
+                    "zanesville"
+                ],
+                "category": "person--placeofbirth",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "gwen_raverat",
+            "parents",
+            "george_darwin"
+        ],
+        "category": "parents",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "george_darwin",
+                    "children",
+                    "gwen_raverat"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "train"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "william_henry_harrison",
+            "parents",
+            "benjamin_harrison_v"
+        ],
+        "category": "parents",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "benjamin_harrison_v",
+                    "children",
+                    "william_henry_harrison"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "train"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "boris_iii_of_bulgaria",
+            "location",
+            "sofia"
+        ],
+        "category": "location",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "boris_iii_of_bulgaria",
+                    "place_of_birth",
+                    "sofia"
+                ],
+                "category": "person--placeofbirth",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "boris_iii_of_bulgaria",
+                    "place_of_death",
+                    "sofia"
+                ],
+                "category": "person--placeofdeath",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "boris_iii_of_bulgaria",
+                    "children",
+                    "simeon_saxe_coburg_gotha",
+                    "location",
+                    "sofia"
+                ],
+                "category": "person--child--location",
+                "confidence": 1,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "boris_iii_of_bulgaria",
+                    "children",
+                    "simeon_saxe_coburg_gotha"
+                ],
+                "category": "person--child",
+                "confidence": 1,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "ippolito_deste",
+            "location",
+            "ferrara"
+        ],
+        "category": "location",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ippolito_deste",
+                    "place_of_birth",
+                    "ferrara"
+                ],
+                "category": "person--placeofbirth",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ippolito_deste",
+                    "place_of_death",
+                    "ferrara"
+                ],
+                "category": "person--placeofdeath",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ippolito_deste",
+                    "parents",
+                    "ercole_deste_i",
+                    "location",
+                    "ferrara"
+                ],
+                "category": "person--parent--location",
+                "confidence": 1,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ippolito_deste",
+                    "parents",
+                    "ercole_deste_i"
+                ],
+                "category": "person--parent",
+                "confidence": 1,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "ippolito_deste",
+                    "sibling",
+                    "isabella_deste",
+                    "location",
+                    "ferrara"
+                ],
+                "category": "person--sibling--location",
+                "confidence": 2,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ippolito_deste",
+                    "sibling",
+                    "isabella_deste"
+                ],
+                "category": "person--sibling",
+                "confidence": 1,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "maria_anna_of_bavaria_1551",
+            "parents",
+            "albert_v_duke_of_bavaria"
+        ],
+        "category": "parents",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "albert_v_duke_of_bavaria",
+                    "children",
+                    "maria_anna_of_bavaria_1551"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "albert_v_duke_of_bavaria",
+                    "spouse",
+                    "anna_of_austria",
+                    "children",
+                    "maria_anna_of_bavaria_1551"
+                ],
+                "category": "child--coparent--parent",
+                "confidence": 2,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "albert_v_duke_of_bavaria",
+                    "spouse",
+                    "anna_of_austria"
+                ],
+                "category": "parent--coparent",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "maria_anna_of_bavaria_1551",
+                    "parents",
+                    "anna_of_austria",
+                    "spouse",
+                    "albert_v_duke_of_bavaria"
+                ],
+                "category": "child--coparent--parent",
+                "confidence": 2,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "maria_anna_of_bavaria_1551",
+                    "parents",
+                    "anna_of_austria"
+                ],
+                "category": "child--coparent",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "maria_anna_of_bavaria_1551",
+                    "sibling",
+                    "william_v_duke_of_bavaria",
+                    "parents",
+                    "albert_v_duke_of_bavaria"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "maria_anna_of_bavaria_1551",
+                    "sibling",
+                    "william_v_duke_of_bavaria"
+                ],
+                "category": "child--sibling",
+                "confidence": 2,
+                "splits": "train"
+            },
+            {
+                "path": [
+                    "albert_v_duke_of_bavaria",
+                    "children",
+                    "william_v_duke_of_bavaria",
+                    "sibling",
+                    "maria_anna_of_bavaria_1551"
+                ],
+                "category": "child--sibling--parent",
+                "confidence": 3,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "albert_v_duke_of_bavaria",
+                    "children",
+                    "william_v_duke_of_bavaria"
+                ],
+                "category": "parent--sibling",
+                "confidence": 2,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "huitzilihuitl",
+            "parents",
+            "acamapichtli"
+        ],
+        "category": "parents",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "acamapichtli",
+                    "children",
+                    "huitzilihuitl"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "harthacanute",
+            "parents",
+            "emma_of_normandy"
+        ],
+        "category": "parents",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "emma_of_normandy",
+                    "children",
+                    "harthacanute"
+                ],
+                "category": "parent--child",
+                "confidence": 3,
+                "splits": [
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "emma_of_normandy",
+                    "spouse",
+                    "canute_the_great",
+                    "children",
+                    "harthacanute"
+                ],
+                "category": "child--coparent--parent",
+                "confidence": 2,
+                "splits": [
+                    "valid",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "emma_of_normandy",
+                    "spouse",
+                    "canute_the_great"
+                ],
+                "category": "parent--coparent",
+                "confidence": 2,
+                "splits": "valid"
+            },
+            {
+                "path": [
+                    "harthacanute",
+                    "parents",
+                    "canute_the_great",
+                    "spouse",
+                    "emma_of_normandy"
+                ],
+                "category": "child--coparent--parent",
+                "confidence": 2,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "harthacanute",
+                    "parents",
+                    "canute_the_great"
+                ],
+                "category": "child--coparent",
+                "confidence": 2,
+                "splits": "train"
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "friedrich_von_gentz",
+            "location",
+            "wroclaw"
+        ],
+        "category": "location",
+        "split": "train",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "friedrich_von_gentz",
+                    "place_of_birth",
+                    "wroclaw"
+                ],
+                "category": "person--placeofbirth",
+                "confidence": 2,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ]
+    },
+    {
+        "query_triple": [
+            "richard_ansdell",
+            "location",
+            "liverpool"
+        ],
+        "category": "location",
+        "split": "test",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "richard_ansdell",
+                    "place_of_birth",
+                    "liverpool"
+                ],
+                "category": "person--placeofbirth",
+                "confidence": 2,
+                "splits": [
+                    "train"
+                ]
+            }
+        ]
+    }
+]

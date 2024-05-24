@@ -1,0 +1,5189 @@
+[
+    {
+        "query_triple": [
+            "prince_berthold_margrave_of_baden",
+            "parents",
+            "princess_marie_louise_of_hanover_and_cumberland"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "princess_marie_louise_of_hanover_and_cumberland",
+                    "children",
+                    "prince_berthold_margrave_of_baden"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "princess_marie_louise_of_hanover_and_cumberland",
+                    "spouse",
+                    "prince_maximilian_of_baden",
+                    "children",
+                    "prince_berthold_margrave_of_baden"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "prince_berthold_margrave_of_baden",
+                    "parents",
+                    "prince_maximilian_of_baden",
+                    "spouse",
+                    "princess_marie_louise_of_hanover_and_cumberland"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "cristofano_allori",
+            "parents",
+            "alessandro_allori"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "alessandro_allori",
+                    "children",
+                    "cristofano_allori"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "pearl_starr",
+            "parents",
+            "belle_starr"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "belle_starr",
+                    "children",
+                    "pearl_starr"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "eugene_de_beauharnais",
+            "parents",
+            "josephine_de_beauharnais"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "josephine_de_beauharnais",
+                    "children",
+                    "eugene_de_beauharnais"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "josephine_de_beauharnais",
+                    "spouse",
+                    "alexandre_vicomte_de_beauharnais",
+                    "children",
+                    "eugene_de_beauharnais"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "eugene_de_beauharnais",
+                    "parents",
+                    "alexandre_vicomte_de_beauharnais",
+                    "spouse",
+                    "josephine_de_beauharnais"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "john_dalrymple_2nd_earl_of_stair",
+            "parents",
+            "john_dalrymple_1st_earl_of_stair"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "john_dalrymple_1st_earl_of_stair",
+                    "children",
+                    "john_dalrymple_2nd_earl_of_stair"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "thomas_palaiologos",
+            "parents",
+            "manuel_ii_palaiologos"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "manuel_ii_palaiologos",
+                    "children",
+                    "thomas_palaiologos"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "livilla",
+            "parents",
+            "nero_claudius_drusus"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "nero_claudius_drusus",
+                    "children",
+                    "livilla"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "william_ii_of_england",
+            "parents",
+            "william_i_of_england"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "william_i_of_england",
+                    "children",
+                    "william_ii_of_england"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "william_i_of_england",
+                    "spouse",
+                    "matilda_of_flanders",
+                    "children",
+                    "william_ii_of_england"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "william_ii_of_england",
+                    "parents",
+                    "matilda_of_flanders",
+                    "spouse",
+                    "william_i_of_england"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "valid",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "blanche_of_england",
+            "parents",
+            "henry_iv_of_england"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "henry_iv_of_england",
+                    "children",
+                    "blanche_of_england"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "henry_iv_of_england",
+                    "spouse",
+                    "mary_de_bohun",
+                    "children",
+                    "blanche_of_england"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "blanche_of_england",
+                    "parents",
+                    "mary_de_bohun",
+                    "spouse",
+                    "henry_iv_of_england"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ferrante_gonzaga",
+            "parents",
+            "isabella_deste"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "isabella_deste",
+                    "children",
+                    "ferrante_gonzaga"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ferrante_gonzaga",
+                    "parents",
+                    "francesco_ii_gonzaga_marquess_of_mantua",
+                    "spouse",
+                    "isabella_deste"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ferdinand_ii_archduke_of_austria",
+            "parents",
+            "anna_of_bohemia_and_hungary"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "anna_of_bohemia_and_hungary",
+                    "children",
+                    "ferdinand_ii_archduke_of_austria"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "anna_of_bohemia_and_hungary",
+                    "spouse",
+                    "ferdinand_i_holy_roman_emperor",
+                    "children",
+                    "ferdinand_ii_archduke_of_austria"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ferdinand_ii_archduke_of_austria",
+                    "parents",
+                    "ferdinand_i_holy_roman_emperor",
+                    "spouse",
+                    "anna_of_bohemia_and_hungary"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "henry_herbert_2nd_earl_of_pembroke",
+            "parents",
+            "william_herbert_1st_earl_of_pembroke"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "william_herbert_1st_earl_of_pembroke",
+                    "children",
+                    "henry_herbert_2nd_earl_of_pembroke"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "william_herbert_1st_earl_of_pembroke",
+                    "spouse",
+                    "anne_herbert_countess_of_pembroke",
+                    "children",
+                    "henry_herbert_2nd_earl_of_pembroke"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "henry_herbert_2nd_earl_of_pembroke",
+                    "parents",
+                    "anne_herbert_countess_of_pembroke",
+                    "spouse",
+                    "william_herbert_1st_earl_of_pembroke"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "archduke_john_salvator_of_austria",
+            "parents",
+            "marie_antoinette_of_tuscany"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "marie_antoinette_of_tuscany",
+                    "children",
+                    "archduke_john_salvator_of_austria"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "marie_antoinette_of_tuscany",
+                    "spouse",
+                    "leopold_ii_grand_duke_of_tuscany",
+                    "children",
+                    "archduke_john_salvator_of_austria"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "archduke_john_salvator_of_austria",
+                    "parents",
+                    "leopold_ii_grand_duke_of_tuscany",
+                    "spouse",
+                    "marie_antoinette_of_tuscany"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "frederick_augustus_i_of_saxony",
+            "parents",
+            "frederick_christian_elector_of_saxony"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "frederick_christian_elector_of_saxony",
+                    "children",
+                    "frederick_augustus_i_of_saxony"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "eadbald_of_kent",
+            "parents",
+            "bertha_of_kent"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "eadbald_of_kent",
+                    "parents",
+                    "ethelbert_of_kent",
+                    "spouse",
+                    "bertha_of_kent"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "valid",
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "iziaslav_i_of_kiev",
+            "parents",
+            "olof_of_sweden"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "olof_of_sweden",
+                    "children",
+                    "iziaslav_i_of_kiev"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "olof_of_sweden",
+                    "spouse",
+                    "yaroslav_i_the_wise",
+                    "children",
+                    "iziaslav_i_of_kiev"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "iziaslav_i_of_kiev",
+                    "parents",
+                    "yaroslav_i_the_wise",
+                    "spouse",
+                    "olof_of_sweden"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "alice_stone_blackwell",
+            "parents",
+            "henry_b_blackwell"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "henry_b_blackwell",
+                    "children",
+                    "alice_stone_blackwell"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "henry_b_blackwell",
+                    "spouse",
+                    "lucy_stone",
+                    "children",
+                    "alice_stone_blackwell"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "alice_stone_blackwell",
+                    "parents",
+                    "lucy_stone",
+                    "spouse",
+                    "henry_b_blackwell"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "granville_leveson_gower_2nd_earl_granville",
+            "parents",
+            "harriet_cavendish_leveson_gower"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "granville_leveson_gower_2nd_earl_granville",
+                    "parents",
+                    "granville_leveson_gower_1st_earl_granville",
+                    "spouse",
+                    "harriet_cavendish_leveson_gower"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "cunipert",
+            "parents",
+            "perctarit"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "perctarit",
+                    "children",
+                    "cunipert"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "diana_barrymore",
+            "parents",
+            "john_barrymore"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "john_barrymore",
+                    "children",
+                    "diana_barrymore"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "john_barrymore",
+                    "spouse",
+                    "blanche_oelrichs",
+                    "children",
+                    "diana_barrymore"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "diana_barrymore",
+                    "parents",
+                    "blanche_oelrichs",
+                    "spouse",
+                    "john_barrymore"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "amalaric",
+            "parents",
+            "alaric_ii"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "alaric_ii",
+                    "children",
+                    "amalaric"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "maximilian_sforza",
+            "parents",
+            "beatrice_deste"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "beatrice_deste",
+                    "children",
+                    "maximilian_sforza"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "beatrice_deste",
+                    "spouse",
+                    "ludovico_sforza",
+                    "children",
+                    "maximilian_sforza"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "maximilian_sforza",
+                    "parents",
+                    "ludovico_sforza",
+                    "spouse",
+                    "beatrice_deste"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ahmose_i",
+            "parents",
+            "ahhotep_i"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ahmose_i",
+                    "parents",
+                    "tao_ii_the_brave",
+                    "spouse",
+                    "ahhotep_i"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "louis_the_younger",
+            "parents",
+            "louis_the_german"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "louis_the_german",
+                    "children",
+                    "louis_the_younger"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "louis_the_german",
+                    "spouse",
+                    "hemma",
+                    "children",
+                    "louis_the_younger"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "louis_the_younger",
+                    "parents",
+                    "hemma",
+                    "spouse",
+                    "louis_the_german"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "arbella_stuart",
+            "parents",
+            "charles_stuart_1st_earl_of_lennox"
+        ],
+        "category": "parents",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "willem_van_de_velde_the_younger",
+            "parents",
+            "willem_van_de_velde_the_elder"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "willem_van_de_velde_the_elder",
+                    "children",
+                    "willem_van_de_velde_the_younger"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "galyani_vadhana",
+            "parents",
+            "mahidol_adulyadej"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "mahidol_adulyadej",
+                    "children",
+                    "galyani_vadhana"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "mahidol_adulyadej",
+                    "spouse",
+                    "srinagarindra",
+                    "children",
+                    "galyani_vadhana"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "galyani_vadhana",
+                    "parents",
+                    "srinagarindra",
+                    "spouse",
+                    "mahidol_adulyadej"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "algernon_percy_10th_earl_of_northumberland",
+            "parents",
+            "dorothy_percy_countess_of_northumberland"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "dorothy_percy_countess_of_northumberland",
+                    "children",
+                    "algernon_percy_10th_earl_of_northumberland"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "dorothy_percy_countess_of_northumberland",
+                    "spouse",
+                    "henry_percy_9th_earl_of_northumberland",
+                    "children",
+                    "algernon_percy_10th_earl_of_northumberland"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "algernon_percy_10th_earl_of_northumberland",
+                    "parents",
+                    "henry_percy_9th_earl_of_northumberland",
+                    "spouse",
+                    "dorothy_percy_countess_of_northumberland"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "algernon_percy_6th_duke_of_northumberland",
+            "parents",
+            "george_percy_5th_duke_of_northumberland"
+        ],
+        "category": "parents",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "prince_georg_of_bavaria",
+            "parents",
+            "prince_leopold_of_bavaria"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "prince_leopold_of_bavaria",
+                    "children",
+                    "prince_georg_of_bavaria"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "prince_leopold_of_bavaria",
+                    "spouse",
+                    "archduchess_gisela_of_austria",
+                    "children",
+                    "prince_georg_of_bavaria"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "prince_georg_of_bavaria",
+                    "parents",
+                    "archduchess_gisela_of_austria",
+                    "spouse",
+                    "prince_leopold_of_bavaria"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "princess_augusta_charlotte_of_wales",
+            "parents",
+            "frederick_prince_of_wales"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "frederick_prince_of_wales",
+                    "children",
+                    "princess_augusta_charlotte_of_wales"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "frederick_prince_of_wales",
+                    "spouse",
+                    "princess_augusta_of_saxe-gotha",
+                    "children",
+                    "princess_augusta_charlotte_of_wales"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "princess_augusta_charlotte_of_wales",
+                    "parents",
+                    "princess_augusta_of_saxe-gotha",
+                    "spouse",
+                    "frederick_prince_of_wales"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "frederick_william_iii_of_prussia",
+            "parents",
+            "frederick_william_ii_of_prussia"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "frederick_william_ii_of_prussia",
+                    "children",
+                    "frederick_william_iii_of_prussia"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "frederick_william_ii_of_prussia",
+                    "spouse",
+                    "frederika_louisa_of_hesse-darmstadt",
+                    "children",
+                    "frederick_william_iii_of_prussia"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "frederick_william_iii_of_prussia",
+                    "parents",
+                    "frederika_louisa_of_hesse-darmstadt",
+                    "spouse",
+                    "frederick_william_ii_of_prussia"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "thomas_duke_of_genoa",
+            "parents",
+            "princess_elizabeth_of_saxony"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "princess_elizabeth_of_saxony",
+                    "children",
+                    "thomas_duke_of_genoa"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "thomas_duke_of_genoa",
+                    "parents",
+                    "ferdinand_duke_of_genoa",
+                    "spouse",
+                    "princess_elizabeth_of_saxony"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "edmund_stafford_5th_earl_of_stafford",
+            "parents",
+            "hugh_de_stafford_2nd_earl_of_stafford"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "hugh_de_stafford_2nd_earl_of_stafford",
+                    "children",
+                    "edmund_stafford_5th_earl_of_stafford"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "william_of_brandenburg",
+            "parents",
+            "frederick_i_margrave_of_brandenburg-ansbach"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "frederick_i_margrave_of_brandenburg-ansbach",
+                    "children",
+                    "william_of_brandenburg"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "henry_the_navigator",
+            "parents",
+            "philippa_of_lancaster"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "philippa_of_lancaster",
+                    "children",
+                    "henry_the_navigator"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "philippa_of_lancaster",
+                    "spouse",
+                    "john_i_of_portugal",
+                    "children",
+                    "henry_the_navigator"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "henry_the_navigator",
+                    "parents",
+                    "john_i_of_portugal",
+                    "spouse",
+                    "philippa_of_lancaster"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "valid",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "francois_louis_prince_of_conti",
+            "parents",
+            "armand_de_bourbon_prince_de_conti"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "armand_de_bourbon_prince_de_conti",
+                    "children",
+                    "francois_louis_prince_of_conti"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "armand_de_bourbon_prince_de_conti",
+                    "spouse",
+                    "anne_marie_martinozzi",
+                    "children",
+                    "francois_louis_prince_of_conti"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "francois_louis_prince_of_conti",
+                    "parents",
+                    "anne_marie_martinozzi",
+                    "spouse",
+                    "armand_de_bourbon_prince_de_conti"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "aloysia_weber",
+            "parents",
+            "fridolin_weber"
+        ],
+        "category": "parents",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "edward_john_mcclernand",
+            "parents",
+            "john_alexander_mcclernand"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "john_alexander_mcclernand",
+                    "children",
+                    "edward_john_mcclernand"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ramesses_iii",
+            "parents",
+            "setnakhte"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "setnakhte",
+                    "children",
+                    "ramesses_iii"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "sverre_of_norway",
+            "parents",
+            "sigurd_ii_of_norway"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "sigurd_ii_of_norway",
+                    "children",
+                    "sverre_of_norway"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "joanna_of_navarre",
+            "parents",
+            "jeanne_de_valois_queen_of_navarre"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "joanna_of_navarre",
+                    "parents",
+                    "charles_ii_of_navarre",
+                    "spouse",
+                    "jeanne_de_valois_queen_of_navarre"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "theodore_ii_laskaris",
+            "parents",
+            "irene_lascarina"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "theodore_ii_laskaris",
+                    "parents",
+                    "john_iii_doukas_vatatzes",
+                    "spouse",
+                    "irene_lascarina"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "charlotte_lee_lady_baltimore",
+            "parents",
+            "barbara_palmer_1st_duchess_of_cleveland"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "barbara_palmer_1st_duchess_of_cleveland",
+                    "children",
+                    "charlotte_lee_lady_baltimore"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "francisco_solano_lopez",
+            "parents",
+            "carlos_antonio_lopez"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "carlos_antonio_lopez",
+                    "children",
+                    "francisco_solano_lopez"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "charles_xii_of_sweden",
+            "parents",
+            "charles_xi_of_sweden"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "charles_xi_of_sweden",
+                    "children",
+                    "charles_xii_of_sweden"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "charles_xi_of_sweden",
+                    "spouse",
+                    "ulrike_eleonora_of_denmark",
+                    "children",
+                    "charles_xii_of_sweden"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "charles_xii_of_sweden",
+                    "parents",
+                    "ulrike_eleonora_of_denmark",
+                    "spouse",
+                    "charles_xi_of_sweden"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "maximilian_ii_emanuel_elector_of_bavaria",
+            "parents",
+            "ferdinand_maria_elector_of_bavaria"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ferdinand_maria_elector_of_bavaria",
+                    "children",
+                    "maximilian_ii_emanuel_elector_of_bavaria"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "ferdinand_maria_elector_of_bavaria",
+                    "spouse",
+                    "henriette_adelaide_of_savoy",
+                    "children",
+                    "maximilian_ii_emanuel_elector_of_bavaria"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "maximilian_ii_emanuel_elector_of_bavaria",
+                    "parents",
+                    "henriette_adelaide_of_savoy",
+                    "spouse",
+                    "ferdinand_maria_elector_of_bavaria"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "infante_augusto_duke_of_coimbra",
+            "parents",
+            "maria_ii_of_portugal"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "maria_ii_of_portugal",
+                    "children",
+                    "infante_augusto_duke_of_coimbra"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "maria_ii_of_portugal",
+                    "spouse",
+                    "ferdinand_ii_of_portugal",
+                    "children",
+                    "infante_augusto_duke_of_coimbra"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "infante_augusto_duke_of_coimbra",
+                    "parents",
+                    "ferdinand_ii_of_portugal",
+                    "spouse",
+                    "maria_ii_of_portugal"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "maria_anna_of_bavaria",
+            "parents",
+            "ferdinand_maria_elector_of_bavaria"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ferdinand_maria_elector_of_bavaria",
+                    "children",
+                    "maria_anna_of_bavaria"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ferdinand_maria_elector_of_bavaria",
+                    "spouse",
+                    "henriette_adelaide_of_savoy",
+                    "children",
+                    "maria_anna_of_bavaria"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "maria_anna_of_bavaria",
+                    "parents",
+                    "henriette_adelaide_of_savoy",
+                    "spouse",
+                    "ferdinand_maria_elector_of_bavaria"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "cosima_wagner",
+            "parents",
+            "marie_dagoult"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "marie_dagoult",
+                    "children",
+                    "cosima_wagner"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "otto_of_greece",
+            "parents",
+            "ludwig_i_of_bavaria"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ludwig_i_of_bavaria",
+                    "children",
+                    "otto_of_greece"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ludwig_i_of_bavaria",
+                    "spouse",
+                    "therese_of_saxe_hildburghausen",
+                    "children",
+                    "otto_of_greece"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "otto_of_greece",
+                    "parents",
+                    "therese_of_saxe_hildburghausen",
+                    "spouse",
+                    "ludwig_i_of_bavaria"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "jehoiakim",
+            "parents",
+            "josiah"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "josiah",
+                    "children",
+                    "jehoiakim"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "harold_alexander_1st_earl_alexander_of_tunis",
+            "parents",
+            "james_alexander_4th_earl_of_caledon"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "james_alexander_4th_earl_of_caledon",
+                    "children",
+                    "harold_alexander_1st_earl_alexander_of_tunis"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "paulina_longworth",
+            "parents",
+            "alice_roosevelt_longworth"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "alice_roosevelt_longworth",
+                    "children",
+                    "paulina_longworth"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "prescott_bush",
+            "parents",
+            "samuel_p_bush"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "samuel_p_bush",
+                    "children",
+                    "prescott_bush"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "louis_armand_ii_de_bourbon_prince_de_conti",
+            "parents",
+            "francois_louis_prince_of_conti"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "francois_louis_prince_of_conti",
+                    "children",
+                    "louis_armand_ii_de_bourbon_prince_de_conti"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "infanta_antonia_of_portugal",
+            "parents",
+            "maria_ii_of_portugal"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "maria_ii_of_portugal",
+                    "children",
+                    "infanta_antonia_of_portugal"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "maria_ii_of_portugal",
+                    "spouse",
+                    "ferdinand_ii_of_portugal",
+                    "children",
+                    "infanta_antonia_of_portugal"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "infanta_antonia_of_portugal",
+                    "parents",
+                    "ferdinand_ii_of_portugal",
+                    "spouse",
+                    "maria_ii_of_portugal"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "valid",
+                    "test"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "manuel_i_of_portugal",
+            "parents",
+            "beatriz_of_portugal"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "beatriz_of_portugal",
+                    "children",
+                    "manuel_i_of_portugal"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "beatriz_of_portugal",
+                    "spouse",
+                    "infante_fernando_duke_of_viseu",
+                    "children",
+                    "manuel_i_of_portugal"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "manuel_i_of_portugal",
+                    "parents",
+                    "infante_fernando_duke_of_viseu",
+                    "spouse",
+                    "beatriz_of_portugal"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "theodore_roosevelt",
+            "parents",
+            "martha_bulloch"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "martha_bulloch",
+                    "children",
+                    "theodore_roosevelt"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "martha_bulloch",
+                    "spouse",
+                    "theodore_roosevelt_sr",
+                    "children",
+                    "theodore_roosevelt"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "valid",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "theodore_roosevelt",
+                    "parents",
+                    "theodore_roosevelt_sr",
+                    "spouse",
+                    "martha_bulloch"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "kamehameha_iv",
+            "parents",
+            "kaahumanu_ii"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "kamehameha_iv",
+                    "parents",
+                    "mataio_kekuanaoa",
+                    "spouse",
+                    "kaahumanu_ii"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "maria_anna_of_sardinia",
+            "parents",
+            "victor_emmanuel_i_of_sardinia"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "victor_emmanuel_i_of_sardinia",
+                    "children",
+                    "maria_anna_of_sardinia"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "victor_emmanuel_i_of_sardinia",
+                    "spouse",
+                    "maria_theresia_of_austria_este",
+                    "children",
+                    "maria_anna_of_sardinia"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "maria_anna_of_sardinia",
+                    "parents",
+                    "maria_theresia_of_austria_este",
+                    "spouse",
+                    "victor_emmanuel_i_of_sardinia"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "mechtild_of_holstein",
+            "parents",
+            "abel_of_denmark"
+        ],
+        "category": "parents",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "prince_joachim_of_prussia",
+            "parents",
+            "william_ii_german_emperor"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "william_ii_german_emperor",
+                    "children",
+                    "prince_joachim_of_prussia"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "william_ii_german_emperor",
+                    "spouse",
+                    "augusta_viktoria_of_schleswig-holstein",
+                    "children",
+                    "prince_joachim_of_prussia"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "prince_joachim_of_prussia",
+                    "parents",
+                    "augusta_viktoria_of_schleswig-holstein",
+                    "spouse",
+                    "william_ii_german_emperor"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "mentuhotep_iii",
+            "parents",
+            "mentuhotep_ii"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "mentuhotep_ii",
+                    "children",
+                    "mentuhotep_iii"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "thomas_i_of_savoy",
+            "parents",
+            "humbert_iii_of_savoy"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "humbert_iii_of_savoy",
+                    "children",
+                    "thomas_i_of_savoy"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "elisabeth_of_parma",
+            "parents",
+            "dorothea_sophie_of_neuburg"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "dorothea_sophie_of_neuburg",
+                    "children",
+                    "elisabeth_of_parma"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "big_foot",
+            "parents",
+            "lone_horn"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "lone_horn",
+                    "children",
+                    "big_foot"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "johann_sebastian_bach",
+            "parents",
+            "johann_ambrosius_bach"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "johann_ambrosius_bach",
+                    "children",
+                    "johann_sebastian_bach"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "louisa_maria_teresa_stuart",
+            "parents",
+            "james_ii_of_england"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "james_ii_of_england",
+                    "children",
+                    "louisa_maria_teresa_stuart"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "james_ii_of_england",
+                    "spouse",
+                    "mary_of_modena",
+                    "children",
+                    "louisa_maria_teresa_stuart"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "louisa_maria_teresa_stuart",
+                    "parents",
+                    "mary_of_modena",
+                    "spouse",
+                    "james_ii_of_england"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "charles_spencer_3rd_earl_of_sunderland",
+            "parents",
+            "robert_spencer_2nd_earl_of_sunderland"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "robert_spencer_2nd_earl_of_sunderland",
+                    "children",
+                    "charles_spencer_3rd_earl_of_sunderland"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "maria_despina_palaiologina",
+            "parents",
+            "michael_viii_palaiologos"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "michael_viii_palaiologos",
+                    "children",
+                    "maria_despina_palaiologina"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "william_light",
+            "parents",
+            "francis_light"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "francis_light",
+                    "children",
+                    "william_light"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "robert_devereux_2nd_earl_of_essex",
+            "parents",
+            "walter_devereux_1st_earl_of_essex"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "walter_devereux_1st_earl_of_essex",
+                    "children",
+                    "robert_devereux_2nd_earl_of_essex"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "walter_devereux_1st_earl_of_essex",
+                    "spouse",
+                    "lettice_knollys",
+                    "children",
+                    "robert_devereux_2nd_earl_of_essex"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "robert_devereux_2nd_earl_of_essex",
+                    "parents",
+                    "lettice_knollys",
+                    "spouse",
+                    "walter_devereux_1st_earl_of_essex"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "henry_rich_1st_earl_of_holland",
+            "parents",
+            "penelope_blount_countess_of_devonshire"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "penelope_blount_countess_of_devonshire",
+                    "children",
+                    "henry_rich_1st_earl_of_holland"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "sitamun",
+            "parents",
+            "amenhotep_iii"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "amenhotep_iii",
+                    "children",
+                    "sitamun"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "albert_i_of_germany",
+            "parents",
+            "rudolph_i_of_germany"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "rudolph_i_of_germany",
+                    "children",
+                    "albert_i_of_germany"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "maria_winteler_einstein",
+            "parents",
+            "hermann_einstein"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "hermann_einstein",
+                    "children",
+                    "maria_winteler_einstein"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "hermann_einstein",
+                    "spouse",
+                    "pauline_koch",
+                    "children",
+                    "maria_winteler_einstein"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "valid",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "reginald_cardinal_pole",
+            "parents",
+            "margaret_pole_8th_countess_of_salisbury"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "margaret_pole_8th_countess_of_salisbury",
+                    "children",
+                    "reginald_cardinal_pole"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "alexander_graham_bell",
+            "parents",
+            "alexander_melville_bell"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "alexander_melville_bell",
+                    "children",
+                    "alexander_graham_bell"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "princess_alexandra_of_edinburgh_and_saxe-coburg-gotha",
+            "parents",
+            "alfred_duke_of_saxe_coburg_and_gotha"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "alfred_duke_of_saxe_coburg_and_gotha",
+                    "children",
+                    "princess_alexandra_of_edinburgh_and_saxe-coburg-gotha"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "alfred_duke_of_saxe_coburg_and_gotha",
+                    "spouse",
+                    "maria_alexandrovna_of_russia",
+                    "children",
+                    "princess_alexandra_of_edinburgh_and_saxe-coburg-gotha"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "princess_alexandra_of_edinburgh_and_saxe-coburg-gotha",
+                    "parents",
+                    "maria_alexandrovna_of_russia",
+                    "spouse",
+                    "alfred_duke_of_saxe_coburg_and_gotha"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "philip_vi_of_france",
+            "parents",
+            "charles_of_valois"
+        ],
+        "category": "parents",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "agnes_of_bohemia",
+            "parents",
+            "constance_of_hungary"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "constance_of_hungary",
+                    "children",
+                    "agnes_of_bohemia"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "constance_of_hungary",
+                    "spouse",
+                    "ottokar_i_of_bohemia",
+                    "children",
+                    "agnes_of_bohemia"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "louis_the_younger",
+            "parents",
+            "hemma"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "hemma",
+                    "children",
+                    "louis_the_younger"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "hemma",
+                    "spouse",
+                    "louis_the_german",
+                    "children",
+                    "louis_the_younger"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "louis_the_younger",
+                    "parents",
+                    "louis_the_german",
+                    "spouse",
+                    "hemma"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "maria_beatrice_of_savoy",
+            "parents",
+            "victor_emmanuel_i_of_sardinia"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "victor_emmanuel_i_of_sardinia",
+                    "children",
+                    "maria_beatrice_of_savoy"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "isabella_of_castile",
+            "parents",
+            "infanta_isabel_of_portugal"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "infanta_isabel_of_portugal",
+                    "children",
+                    "isabella_of_castile"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "infanta_isabel_of_portugal",
+                    "spouse",
+                    "john_ii_of_castile",
+                    "children",
+                    "isabella_of_castile"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "isabella_of_castile",
+                    "parents",
+                    "john_ii_of_castile",
+                    "spouse",
+                    "infanta_isabel_of_portugal"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "margarethe_of_bohemia",
+            "parents",
+            "ottokar_i_of_bohemia"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ottokar_i_of_bohemia",
+                    "children",
+                    "margarethe_of_bohemia"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "infante_pedro_duke_of_coimbra",
+            "parents",
+            "john_i_of_portugal"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "john_i_of_portugal",
+                    "children",
+                    "infante_pedro_duke_of_coimbra"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "john_i_of_portugal",
+                    "spouse",
+                    "philippa_of_lancaster",
+                    "children",
+                    "infante_pedro_duke_of_coimbra"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "infante_pedro_duke_of_coimbra",
+                    "parents",
+                    "philippa_of_lancaster",
+                    "spouse",
+                    "john_i_of_portugal"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "pippin_of_herstal",
+            "parents",
+            "begga"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "begga",
+                    "children",
+                    "pippin_of_herstal"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "elena_pavlovna_of_wurttemberg",
+            "parents",
+            "prince_paul_of_wurttemberg"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "prince_paul_of_wurttemberg",
+                    "children",
+                    "elena_pavlovna_of_wurttemberg"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "maria_luisa_of_parma",
+            "parents",
+            "philip_duke_of_parma"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "philip_duke_of_parma",
+                    "children",
+                    "maria_luisa_of_parma"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "philip_duke_of_parma",
+                    "spouse",
+                    "princess_louise_elisabeth_of_france",
+                    "children",
+                    "maria_luisa_of_parma"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "maria_luisa_of_parma",
+                    "parents",
+                    "princess_louise_elisabeth_of_france",
+                    "spouse",
+                    "philip_duke_of_parma"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "william_de_morgan",
+            "parents",
+            "augustus_de_morgan"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "augustus_de_morgan",
+                    "children",
+                    "william_de_morgan"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "wolfgang_wagner",
+            "parents",
+            "siegfried_wagner"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "siegfried_wagner",
+                    "children",
+                    "wolfgang_wagner"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "siegfried_wagner",
+                    "spouse",
+                    "winifred_wagner",
+                    "children",
+                    "wolfgang_wagner"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "wolfgang_wagner",
+                    "parents",
+                    "winifred_wagner",
+                    "spouse",
+                    "siegfried_wagner"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "arthur_i_duke_of_brittany",
+            "parents",
+            "geoffrey_ii_duke_of_brittany"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "geoffrey_ii_duke_of_brittany",
+                    "children",
+                    "arthur_i_duke_of_brittany"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "wenceslaus_iii_of_bohemia",
+            "parents",
+            "venceslaus_ii_of_bohemia"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "venceslaus_ii_of_bohemia",
+                    "children",
+                    "wenceslaus_iii_of_bohemia"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "urraca_of_zamora_infanta_of_leon",
+            "parents",
+            "ferdinand_i_of_leon"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ferdinand_i_of_leon",
+                    "children",
+                    "urraca_of_zamora_infanta_of_leon"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ferdinand_i_of_leon",
+                    "spouse",
+                    "sancha_of_leon",
+                    "children",
+                    "urraca_of_zamora_infanta_of_leon"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "urraca_of_zamora_infanta_of_leon",
+                    "parents",
+                    "sancha_of_leon",
+                    "spouse",
+                    "ferdinand_i_of_leon"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "archduchess_maria_beatrix_of_austria_este",
+            "parents",
+            "maria_beatrice_of_savoy"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "maria_beatrice_of_savoy",
+                    "children",
+                    "archduchess_maria_beatrix_of_austria_este"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "prince_friedrich_of_hesse_and_by_rhine",
+            "parents",
+            "alice_of_the_united_kingdom"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "alice_of_the_united_kingdom",
+                    "children",
+                    "prince_friedrich_of_hesse_and_by_rhine"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "alice_of_the_united_kingdom",
+                    "spouse",
+                    "louis_iv_grand_duke_of_hesse",
+                    "children",
+                    "prince_friedrich_of_hesse_and_by_rhine"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "prince_friedrich_of_hesse_and_by_rhine",
+                    "parents",
+                    "louis_iv_grand_duke_of_hesse",
+                    "spouse",
+                    "alice_of_the_united_kingdom"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "louise_of_the_netherlands",
+            "parents",
+            "prince_frederik_of_the_netherlands"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "prince_frederik_of_the_netherlands",
+                    "children",
+                    "louise_of_the_netherlands"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "olybrius",
+            "parents",
+            "valentinian_iii"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "valentinian_iii",
+                    "children",
+                    "olybrius"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "archduchess_maria_theresa_of_austria_este",
+            "parents",
+            "francis_iv_duke_of_modena"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "francis_iv_duke_of_modena",
+                    "children",
+                    "archduchess_maria_theresa_of_austria_este"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "madalyn_murray_ohair",
+            "location",
+            "baltimore"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "tom_drake",
+            "location",
+            "brooklyn"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "tom_drake",
+                    "place_of_birth",
+                    "brooklyn"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "benjamin_wade",
+            "location",
+            "ashtabula"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "prince_rupert_of_the_rhine",
+            "location",
+            "prague"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "prince_rupert_of_the_rhine",
+                    "place_of_birth",
+                    "prague"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "edward_hamersley_1835",
+            "location",
+            "guildford_western_australia"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "luther_tucker",
+            "location",
+            "memphis_tennessee"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "luther_tucker",
+                    "place_of_birth",
+                    "memphis_tennessee"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "eva_cassidy",
+            "location",
+            "maryland"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "regis_henri_post",
+            "location",
+            "new_york_state"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "john_wesley_work_iii",
+            "location",
+            "tennessee"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "john_chafee",
+            "location",
+            "rhode_island"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "albert_e_tozier",
+            "location",
+            "hillsboro"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "robert_michaelis_von_olshausen",
+            "location",
+            "kiel"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "robert_michaelis_von_olshausen",
+                    "place_of_birth",
+                    "kiel"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "hugh_oconnor",
+            "location",
+            "rome"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "hugh_oconnor",
+                    "place_of_birth",
+                    "rome"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "phil_silvers",
+            "location",
+            "brooklyn"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "hermano_pedro_de_san_jose_de_betancurt",
+            "location",
+            "tenerife"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "hermano_pedro_de_san_jose_de_betancurt",
+                    "place_of_birth",
+                    "tenerife"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "john_s_barry",
+            "location",
+            "vermont"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "kaiko_takeshi",
+            "location",
+            "tokyo"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "florence_foster_jenkins",
+            "location",
+            "wilkes_barre"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "florence_foster_jenkins",
+                    "place_of_birth",
+                    "wilkes_barre"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "stephen_b_packard",
+            "location",
+            "maine"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "andrea_del_verrocchio",
+            "location",
+            "florence"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "andrea_del_verrocchio",
+                    "place_of_birth",
+                    "florence"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "pat_coombs",
+            "location",
+            "camberwell"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "pat_coombs",
+                    "place_of_birth",
+                    "camberwell"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "john_clarkson",
+            "location",
+            "bay_city"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "frederica_charlotte_of_prussia",
+            "location",
+            "berlin"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "frederica_charlotte_of_prussia",
+                    "parents",
+                    "frederick_william_ii_of_prussia",
+                    "location",
+                    "berlin"
+                ],
+                "category": "parents_location",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ignaz_franz_castelli",
+            "location",
+            "vienna"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ignaz_franz_castelli",
+                    "place_of_birth",
+                    "vienna"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "ignaz_franz_castelli",
+                    "place_of_death",
+                    "vienna"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "gerard_van_spaendonck",
+            "location",
+            "tilburg"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "marion_byron",
+            "location",
+            "dayton_ohio"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "james_f_blake",
+            "location",
+            "montgomery"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "william_dummer_powell",
+            "location",
+            "toronto"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "william_dummer_powell",
+                    "place_of_death",
+                    "toronto"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ernst_von_wolzogen",
+            "location",
+            "wroclaw"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ernst_von_wolzogen",
+                    "place_of_birth",
+                    "wroclaw"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "faye_emerson",
+            "location",
+            "louisiana"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "marc_girardin",
+            "location",
+            "paris"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "marc_girardin",
+                    "place_of_birth",
+                    "paris"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "pierre_savorgnan_de_brazza",
+            "location",
+            "rome"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "pierre_savorgnan_de_brazza",
+                    "place_of_birth",
+                    "rome"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "henry_jenner",
+            "location",
+            "st_columb_major"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "richard_hamming",
+            "location",
+            "united_states"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "richard_hamming",
+                    "nationality",
+                    "united_states"
+                ],
+                "category": "nationality",
+                "deterministic": false,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "david_sarnoff",
+            "location",
+            "new_jersey"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "agustin_stahl",
+            "location",
+            "aguadilla_puerto_rico"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "albion_k_parris",
+            "location",
+            "portland_maine"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "albion_k_parris",
+                    "place_of_death",
+                    "portland_maine"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "johann_jakob_reiske",
+            "location",
+            "saxony"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "jun_takami",
+            "location",
+            "fukui_prefecture"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "joel_holmes",
+            "location",
+            "halifax"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "joel_holmes",
+                    "place_of_birth",
+                    "halifax"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "anton_kraabel",
+            "location",
+            "north_dakota"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ignazio_buttitta",
+            "location",
+            "sicily"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "henry_yates_satterlee",
+            "location",
+            "new_york"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "henry_yates_satterlee",
+                    "place_of_birth",
+                    "new_york"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "william_henry_allen",
+            "location",
+            "providence"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "william_henry_allen",
+                    "place_of_birth",
+                    "providence"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "erika_von_brockdorff",
+            "location",
+            "kolobrzeg"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "erika_von_brockdorff",
+                    "place_of_birth",
+                    "kolobrzeg"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "larry_h_smith",
+            "location",
+            "minnesota"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "oleg_borisov",
+            "location",
+            "saint_petersburg"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "albert_ii_of_germany",
+            "location",
+            "vienna"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "albert_ii_of_germany",
+                    "place_of_birth",
+                    "vienna"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "hiram_mccullough",
+            "location",
+            "elkton"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "chen_gongbo",
+            "location",
+            "nanhai"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "chen_gongbo",
+                    "place_of_birth",
+                    "nanhai"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ulrich_muhe",
+            "location",
+            "saxony"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "creighton_abrams",
+            "location",
+            "springfield"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "creighton_abrams",
+                    "place_of_birth",
+                    "springfield"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "ellen_g_white",
+            "location",
+            "battle_creek"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ellen_g_white",
+                    "spouse",
+                    "james_springer_white",
+                    "location",
+                    "battle_creek"
+                ],
+                "category": "spouses_location",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "william_gaddis",
+            "location",
+            "new_york_county"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "william_gaddis",
+                    "place_of_birth",
+                    "new_york_county"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "albert_e_bowen",
+            "location",
+            "idaho"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "charles_a_wikoff",
+            "location",
+            "pennsylvania"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "anne_bonny",
+            "location",
+            "county_cork"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "anne_bonny",
+                    "place_of_birth",
+                    "county_cork"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "daniel_appleton",
+            "location",
+            "boston_massachusetts"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "menno_ter_braak",
+            "location",
+            "gelderland"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "charlotte_saunders_cushman",
+            "location",
+            "boston_massachusetts"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "charlotte_saunders_cushman",
+                    "place_of_birth",
+                    "boston_massachusetts"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "charlotte_saunders_cushman",
+                    "place_of_death",
+                    "boston_massachusetts"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "eben_e_rexford",
+            "location",
+            "wisconsin"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "douglas_mawson",
+            "location",
+            "adelaide"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "karl_aloys_zu_furstenberg",
+            "location",
+            "prague"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "karl_aloys_zu_furstenberg",
+                    "place_of_birth",
+                    "prague"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "robert_simpson_1921",
+            "location",
+            "leamington_spa"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "robert_simpson_1921",
+                    "place_of_birth",
+                    "leamington_spa"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "charlie_norwood",
+            "location",
+            "augusta"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "charlie_norwood",
+                    "place_of_death",
+                    "augusta"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "saint_antipas",
+            "location",
+            "pergamon"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "saint_antipas",
+                    "place_of_death",
+                    "pergamon"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "gunther_lutzow",
+            "location",
+            "kiel"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "gunther_lutzow",
+                    "place_of_birth",
+                    "kiel"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "albert_niemann",
+            "location",
+            "germany"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "albert_niemann",
+                    "nationality",
+                    "germany"
+                ],
+                "category": "nationality",
+                "deterministic": false,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "nathan_clifford",
+            "location",
+            "maine"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "charles_e_daniel",
+            "location",
+            "greenville"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "charles_e_daniel",
+                    "place_of_death",
+                    "greenville"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "georgios_kountouriotis",
+            "location",
+            "attica"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "renzo_pasolini",
+            "location",
+            "rimini"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "renzo_pasolini",
+                    "place_of_birth",
+                    "rimini"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "vincent_fourcade",
+            "location",
+            "paris"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "giuseppe_gazzaniga",
+            "location",
+            "verona"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "giuseppe_gazzaniga",
+                    "place_of_birth",
+                    "verona"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "archie_randolph_ammons",
+            "location",
+            "north_carolina"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "archie_randolph_ammons",
+                    "place_of_birth",
+                    "north_carolina"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "test"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "eric_dorman-smith",
+            "location",
+            "county_cavan"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "eric_dorman-smith",
+                    "place_of_birth",
+                    "county_cavan"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "monica_zetterlund",
+            "location",
+            "varmland"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "johnny_copeland",
+            "location",
+            "louisiana"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "karl_g_taylor_sr",
+            "location",
+            "maryland"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "clyde_e_fant_sr",
+            "location",
+            "shreveport"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "clyde_e_fant_sr",
+                    "place_of_death",
+                    "shreveport"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "christopher_vokes",
+            "location",
+            "county_armagh"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "barthold_georg_niebuhr",
+            "location",
+            "copenhagen"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "barthold_georg_niebuhr",
+                    "place_of_birth",
+                    "copenhagen"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "louis_ii_de_la_tremoille",
+            "location",
+            "poitou-charentes"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "rudolf_friml",
+            "location",
+            "prague"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "rudolf_friml",
+                    "place_of_birth",
+                    "prague"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "william_booth_wecker",
+            "location",
+            "owensboro"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "ingemar_johansson",
+            "location",
+            "gothenburg"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ingemar_johansson",
+                    "place_of_birth",
+                    "gothenburg"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "james_m_mason",
+            "location",
+            "virginia"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "annie_bos",
+            "location",
+            "amsterdam"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "annie_bos",
+                    "place_of_birth",
+                    "amsterdam"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "margaret_forrest",
+            "location",
+            "guildford_western_australia"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "fernand_leger",
+            "location",
+            "argentan"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "fernand_leger",
+                    "place_of_birth",
+                    "argentan"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "valid"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "oscar_baumann",
+            "location",
+            "vienna"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "oscar_baumann",
+                    "place_of_birth",
+                    "vienna"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "oscar_baumann",
+                    "place_of_death",
+                    "vienna"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "deems_taylor",
+            "location",
+            "new_york"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "deems_taylor",
+                    "place_of_birth",
+                    "new_york"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "deems_taylor",
+                    "place_of_death",
+                    "new_york"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "ruth_donnelly",
+            "location",
+            "trenton"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "bill_nicholson_1914",
+            "location",
+            "chestertown"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "robert_prosky",
+            "location",
+            "washington_united_states"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "robert_prosky",
+                    "place_of_death",
+                    "washington_united_states"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "majel_barrett",
+            "location",
+            "columbus_ohio"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "majel_barrett",
+                    "place_of_birth",
+                    "columbus_ohio"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "john_cardinal_mccloskey",
+            "location",
+            "new_york"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "john_cardinal_mccloskey",
+                    "place_of_death",
+                    "new_york"
+                ],
+                "category": "place_of_death",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "roy_g_fitzgerald",
+            "location",
+            "ohio"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "adlai_e_stevenson",
+            "location",
+            "kentucky"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "john_mack_1927",
+            "location",
+            "cleveland_ohio"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    }
+]

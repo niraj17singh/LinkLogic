@@ -1,0 +1,594 @@
+[
+    {
+        "query_triple": [
+            "charles_darwin",
+            "parents",
+            "robert_darwin"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "robert_darwin",
+                    "children",
+                    "charles_darwin"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "anna_e_roosevelt",
+            "parents",
+            "eleanor_roosevelt"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "eleanor_roosevelt",
+                    "children",
+                    "anna_e_roosevelt"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "eleanor_roosevelt",
+                    "spouse",
+                    "franklin_d_roosevelt",
+                    "children",
+                    "anna_e_roosevelt"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "anna_e_roosevelt",
+                    "parents",
+                    "franklin_d_roosevelt",
+                    "spouse",
+                    "eleanor_roosevelt"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "test",
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "richard_hawkins",
+            "parents",
+            "john_hawkins"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "john_hawkins",
+                    "children",
+                    "richard_hawkins"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "albert_einstein",
+            "parents",
+            "pauline_koch"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "pauline_koch",
+                    "children",
+                    "albert_einstein"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "pauline_koch",
+                    "spouse",
+                    "hermann_einstein",
+                    "children",
+                    "albert_einstein"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "albert_einstein",
+                    "parents",
+                    "hermann_einstein",
+                    "spouse",
+                    "pauline_koch"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "cleopatra_selene",
+            "parents",
+            "mark_antony"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "mark_antony",
+                    "children",
+                    "cleopatra_selene"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "mark_antony",
+                    "spouse",
+                    "cleopatra_vii_of_egypt",
+                    "children",
+                    "cleopatra_selene"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "cleopatra_selene",
+                    "parents",
+                    "cleopatra_vii_of_egypt",
+                    "spouse",
+                    "mark_antony"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "anna_e_roosevelt",
+            "parents",
+            "franklin_d_roosevelt"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "franklin_d_roosevelt",
+                    "children",
+                    "anna_e_roosevelt"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "franklin_d_roosevelt",
+                    "spouse",
+                    "eleanor_roosevelt",
+                    "children",
+                    "anna_e_roosevelt"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "valid"
+                ]
+            },
+            {
+                "path": [
+                    "anna_e_roosevelt",
+                    "parents",
+                    "eleanor_roosevelt",
+                    "spouse",
+                    "franklin_d_roosevelt"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "theodore_roosevelt_jr",
+            "parents",
+            "edith_roosevelt"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "edith_roosevelt",
+                    "children",
+                    "theodore_roosevelt_jr"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "edith_roosevelt",
+                    "spouse",
+                    "theodore_roosevelt",
+                    "children",
+                    "theodore_roosevelt_jr"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "theodore_roosevelt_jr",
+                    "parents",
+                    "theodore_roosevelt",
+                    "spouse",
+                    "edith_roosevelt"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "constanze_mozart",
+            "parents",
+            "fridolin_weber"
+        ],
+        "category": "parents",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "archibald_roosevelt",
+            "parents",
+            "theodore_roosevelt"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "theodore_roosevelt",
+                    "children",
+                    "archibald_roosevelt"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "theodore_roosevelt",
+                    "spouse",
+                    "edith_roosevelt",
+                    "children",
+                    "archibald_roosevelt"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "archibald_roosevelt",
+                    "parents",
+                    "edith_roosevelt",
+                    "spouse",
+                    "theodore_roosevelt"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "valid",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "robert_todd_lincoln",
+            "parents",
+            "mary_todd_lincoln"
+        ],
+        "category": "parents",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "mary_todd_lincoln",
+                    "children",
+                    "robert_todd_lincoln"
+                ],
+                "category": "child",
+                "deterministic": true,
+                "splits": [
+                    "train"
+                ]
+            },
+            {
+                "path": [
+                    "mary_todd_lincoln",
+                    "spouse",
+                    "abraham_lincoln",
+                    "children",
+                    "robert_todd_lincoln"
+                ],
+                "category": "spouses_child",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "test"
+                ]
+            },
+            {
+                "path": [
+                    "robert_todd_lincoln",
+                    "parents",
+                    "abraham_lincoln",
+                    "spouse",
+                    "mary_todd_lincoln"
+                ],
+                "category": "parents_spouse",
+                "deterministic": false,
+                "splits": [
+                    "train",
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "dorothy_crowfoot_hodgkin",
+            "location",
+            "cairo"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "dorothy_crowfoot_hodgkin",
+                    "place_of_birth",
+                    "cairo"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "ludwig_von_mises",
+            "location",
+            "lviv"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "ludwig_von_mises",
+                    "place_of_birth",
+                    "lviv"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "tris_speaker",
+            "location",
+            "texas"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "george_graham_vest",
+            "location",
+            "frankfort"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "george_graham_vest",
+                    "place_of_birth",
+                    "frankfort"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "georges_danton",
+            "location",
+            "champagne-ardenne"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "train"
+    },
+    {
+        "query_triple": [
+            "john_bird_sumner",
+            "location",
+            "kenilworth"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "john_bird_sumner",
+                    "place_of_birth",
+                    "kenilworth"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "akiva_eger",
+            "location",
+            "poznan"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "robert_simpson_1921",
+            "location",
+            "leamington_spa"
+        ],
+        "category": "location",
+        "explanatory_paths": [
+            {
+                "path": [
+                    "robert_simpson_1921",
+                    "place_of_birth",
+                    "leamington_spa"
+                ],
+                "category": "place_of_birth",
+                "deterministic": false,
+                "splits": [
+                    "train"
+                ]
+            }
+        ],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "wiley_blount_rutledge",
+            "location",
+            "kentucky"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    },
+    {
+        "query_triple": [
+            "clarrie_grimmett",
+            "location",
+            "dunedin"
+        ],
+        "category": "location",
+        "explanatory_paths": [],
+        "split": "test"
+    }
+]
