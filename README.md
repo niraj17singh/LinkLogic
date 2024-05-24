@@ -30,6 +30,9 @@ sh get_embeddings.sh
         - `io_params`: Defines the params to read the dataset and save the outputs
         - `linklogic_params`: Defines the params used by linklogic to generate explanations
     - Description of the `io_params`
+        - `data_path`: Path to the dataset.
+        - `save_path`: Path to save the output of the `run_linklogic.py`
+        
     - Description of the `linklogic_params`
         - `dataset`: Name of the dataset. Currently supports `fb13_resplit`, `fb14`
         - `method`: Name of the KGE embedding strategy. Currently supported `ComplEx` and `TransE`.
@@ -46,7 +49,7 @@ sh get_embeddings.sh
         - `consider_child`: Boolean to remove direct inverse evidence for parents benchmark
         - `benchmark`: Benchmark category - Currently supports `parents` or `location`
         - `benchmark_datatype`: Benchmark datatype - Currently supports `analysis` or `tuning`
-        - `r1_name_link`: List of relations to consider for 1st hop in creating 2-hop paths
+        - `r1_name_list`: List of relations to consider for 1st hop in creating 2-hop paths
         - `r2_name_list`: List of relations to consider for 2nd hop in creating 2-hop paths
         - `feature_considerations`: Wheather to cosider only 1-hop, 2-hop or all features to train the surrogate model
 
