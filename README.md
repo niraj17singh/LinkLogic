@@ -62,6 +62,23 @@ git lfs pull
     ```
 4. Generated results are stored in the `io_path["save_path"]`
 
+5. Format of generated results
+    - For each `run_linklogic.py` run results are saved in the `io_params["save_path"]` with the following file format:
+        - {dataset}_{benchmark}_{benchmark_datatype}_{method}_{feature_considerations}_child_{consider_child}.pickle
+        - Here, for each <feature_consideration> a new .pickle file is saved. 
+    - Contents of the .pickle files saved:
+        - Each file constains the metadata associated with the list of all the queries
+        - Output Params:
+            - `query_triple`: The query triple for which the linklogic explanations are desired. 
+            - `prob`: Boolean for sigmoid transformation on the knowledge graph embedding scores
+            - `query_triple_kge_score`: The link prediction score as identified by the KGE method used. Default method is ComplEx and the scores are between 0 and 1 if `prob` is `True`.
+            - `final_columns`: List of all the triples identified as a feature for 1-hop, 2-hop and all. 
+            - `linklogic_features`: List of all the triples identified as a feature for 1-hop, 2-hop and all, along with other metadata. Eg. `kge_score` which is a dictionary of `1st_hop_kge_score`, `path_score` and `path_score_method`, `coef` which us the coefficient score from the surrogate model, and `split` which contains the information if the triple is present in the `train`, `valid` or `test` split in the graph.
+            - `linklogic_metrics`: Dictionary that contains two keys: 1. `train_acc` - Training accurary of the surrogate model, and 2. `test_acc` - Test accuracy of the surrogate model. 
+            - `category`: Benchmark category - Currently supports `parents` or `location`
+            - `split`: Information on whether the query triple belongs to `train`, `test` or `valid` split.
+            - `linklogic_explanations`: A subset of `linklogic_features` which are linklogic explanations based on the positive coeficient score from the surrogate model. 
+            - `linklogic_params`: A copy of the `params.json` file used to generate the explanations for reproducibility.
 
 # Citation
 
