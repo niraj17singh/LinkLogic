@@ -14,7 +14,8 @@ Knowledge Graph Predictions.
 To train the ComplEx Decoder used in the paper, we used the [DGL-KE](https://github.com/awslabs/dgl-ke) library. For easy reproducibility of the experiments mentioned in the paper, we are sharing the trained embeddings using ComplEx decode for the `fb13_resplit` and `fb14` datasets. To download the same run the following script from the root of the project:
 
 ```bash
-sh get_embeddings.sh
+brew install git-lfs
+git lfs pull
 ```
 
 # LinkLogic Explanations
@@ -32,7 +33,7 @@ sh get_embeddings.sh
     - Description of the `io_params`
         - `data_path`: Path to the dataset.
         - `save_path`: Path to save the output of the `run_linklogic.py`
-        
+
     - Description of the `linklogic_params`
         - `dataset`: Name of the dataset. Currently supports `fb13_resplit`, `fb14`
         - `method`: Name of the KGE embedding strategy. Currently supported `ComplEx` and `TransE`.
