@@ -84,13 +84,13 @@ git lfs pull
 
 If you use  LinkLogic in a scientific publication, we would appreciate citations to the following paper:
 
-: TODO
 ```bibtex
-@article{xyz,
+@article{kumar-singh2024linklogic,
   title={LinkLogic: A New Method and Benchmark for Explainable Knowledge Graph Predictions},
-  author={Niraj Kumar Singh, Gustavo Polleti, Saee Paliwal, Rachel Hodos Nkhereanye},
-  journal={},
+  author={Kumar-Singh, Niraj and Polleti, Gustavo and Paliwal, Saee and Hodos-Nkhereanye, Rachel},
+  journal={arXiv preprint arXiv:2406.00855},
   year={2024}
+}
 }
 ```
 
