@@ -91,7 +91,6 @@ If you use  LinkLogic in a scientific publication, we would appreciate citations
   journal={arXiv preprint arXiv:2406.00855},
   year={2024}
 }
-}
 ```
 
 # License
