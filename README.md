@@ -1,7 +1,7 @@
 # LinkLogic
 
-This is the code repository for the paper titled LinkLogic: A New Method and Benchmark for Explainable
-Knowledge Graph Predictions.
+This is the code repository for the paper : [LinkLogic: A New Method and Benchmark for Explainable
+Knowledge Graph Predictions](https://arxiv.org/abs/2406.00855).
 
 # Datasets
 - The `FB13` dataset from OpenKE benchmark is present at `dataset/FB13`
